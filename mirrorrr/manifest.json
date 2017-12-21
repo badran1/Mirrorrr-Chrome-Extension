@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "popup.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+        "16": "lock_16.png",
+        "32": "lock_32.png"
+    }
+   },
+   "description": "This extension will mirror blocked site content",
+   "homepage_url": "http://www.frontendmachine.com",
+	"icons": {
+      "128": "lock_128.png",
+      "16": "lock_16.png",
+      "32": "lock_32.png",
+      "64": "lock_64.png"
+   },
+   "manifest_version": 2,
+   "name": "Mirrorrr Plugin",
+   "permissions": [ "tabs" ],
+   "version": "1.0.0"
+}
